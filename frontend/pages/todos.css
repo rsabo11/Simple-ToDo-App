@@ -1,0 +1,118 @@
+.app-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin: 1.5rem 0;
+  color: #1e90ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #1e90ff;
+  padding-bottom: 0.5rem;
+}
+.todo-neu button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.todo-button button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease,
+              background-color 0.2s ease;
+  margin-left: 0.5rem;
+}
+.todo-button button:hover {
+  background-color: #005bb5;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.todo-neu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0 0 1rem 0;
+  max-width: 600px;
+  width: 90%;
+  align-items: flex-start;
+}
+.todo-neu input[type="text"],
+.todo-neu textarea {
+  width: 100%;           
+  box-sizing: border-box;
+}
+  
+.todo-neu button[type="submit"] {
+  max-width: 200px;      
+  width: 100%;           
+  padding: 0.75rem;
+  font-size: 1.125rem;
+  align-self: flex-start;
+}
+.todo-liste {
+  list-style: none;
+  padding: 0;
+}
+.todo-button {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.todo-display {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.todo-basic {
+  flex: 1;
+}
+.todo-basic .description {
+  margin: 0.25rem 0;
+  color: #555;
+}
+.done {
+  text-decoration: line-through;
+  color: #888;
+}
+.todo-change {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.todo-change input,
+.todo-change textarea {
+  padding: 0.5rem;
+}
+.todo-change input,
+.todo-change textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.todo-neu button[type="submit"] {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+    
+  margin-top: 0.75rem;
+  
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
